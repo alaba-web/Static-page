@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  position: relative;
+}
+
+.my-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #101828;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 48px 0;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 32px;
+  border-top: #eaecf0 solid 1px;
+}
+
+.foot > p {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 24px 0;
+}
+
+.share {
+  position: absolute;
+  right: 250px;
+}
+
+.share-two {
+  position: absolute;
+  right: 25px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: #eaecf0;
+}
