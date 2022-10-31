@@ -41,42 +41,34 @@ class Static extends Component {
             </h2>
           </div>
           <ul className="d-grid gap-2">
-            <li className="btn btn-secondary m-2" type="button">
+            <li className="btn  m-2" type="button">
               <a href="https://twitter.com/azeez_alaba">Twitter Link</a>
             </li>
-            <li className="btn btn-secondary m-2" id="btn_zuri" type="button">
+            <li className="btn  m-2" id="btn_zuri" type="button">
               <a href="https://training.zuri.team/">Zuri Team</a>
             </li>
-            <li className="btn btn-secondary m-2" id="books" type="button">
+            <li className="btn  m-2" id="books" type="button">
               <a href="http://books.zuri.team">Zuri Books</a>
             </li>
-            <li
-              className="btn btn-secondary m-2"
-              id="book_python"
-              type="button"
-            >
+            <li className="btn  m-2" id="book_python" type="button">
               <a href="https://books.zuri.team/">Python Books</a>
             </li>
-            <li className="btn btn-secondary m-2" id="pitch" type="button">
+            <li className="btn  m-2" id="pitch" type="button">
               <a href="https://background.zuri.team ">
                 Background Check for Coders
               </a>
             </li>
-            <li
-              className="btn btn-secondary m-2"
-              id="book_design"
-              type="button"
-            >
+            <li className="btn  m-2" id="book_design" type="button">
               <a href="https://books.zuri.team/design-rules ">Design Books</a>
             </li>
           </ul>
-          <div className="d-none d-lg-block">
+          <div>
             <div className="text-center">
               <img src={slack} className="m-2" />
               <img src={github} className="m-2" />
             </div>
           </div>
-          <footer className="d-none d-lg-block footer">
+          <footer className="footer">
             <div className="foot">
               <div>
                 <img src={zuriLogo} alt="zuri logo" />
