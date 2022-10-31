@@ -68,7 +68,7 @@ class Static extends Component {
           </a>
 
           <a
-            href="https://books.zuri.team/"
+            href="https://books.zuri.team/python-for-beginners?ref_id=<Alaba>"
             className="btn  m-2"
             id="book_python"
             type="button"
