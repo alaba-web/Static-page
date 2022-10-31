@@ -40,28 +40,60 @@ class Static extends Component {
               Alaba
             </h2>
           </div>
-          <ul className="d-grid gap-2">
-            <li className="btn  m-2" type="button">
-              <a href="https://twitter.com/azeez_alaba">Twitter Link</a>
-            </li>
-            <li className="btn  m-2" id="btn_zuri" type="button">
-              <a href="https://training.zuri.team/">Zuri Team</a>
-            </li>
-            <li className="btn  m-2" id="books" type="button">
-              <a href="http://books.zuri.team">Zuri Books</a>
-            </li>
-            <li className="btn  m-2" id="book_python" type="button">
-              <a href="https://books.zuri.team/">Python Books</a>
-            </li>
-            <li className="btn  m-2" id="pitch" type="button">
-              <a href="https://background.zuri.team ">
-                Background Check for Coders
-              </a>
-            </li>
-            <li className="btn  m-2" id="book_design" type="button">
-              <a href="https://books.zuri.team/design-rules ">Design Books</a>
-            </li>
-          </ul>
+
+          <a
+            href="https://twitter.com/azeez_alaba"
+            className="btn  m-2"
+            type="button"
+          >
+            Twitter Link
+          </a>
+
+          <a
+            href="https://training.zuri.team/"
+            className="btn  m-2"
+            id="btn_zuri"
+            type="button"
+          >
+            Zuri Team
+          </a>
+
+          <a
+            href="http://books.zuri.team"
+            className="btn  m-2"
+            id="books"
+            type="button"
+          >
+            Zuri Books
+          </a>
+
+          <a
+            href="https://books.zuri.team/"
+            className="btn  m-2"
+            id="book_python"
+            type="button"
+          >
+            Python Books
+          </a>
+
+          <a
+            href="https://background.zuri.team "
+            className="btn  m-2"
+            id="pitch"
+            type="button"
+          >
+            Background Check for Coders
+          </a>
+
+          <a
+            href="https://books.zuri.team/design-rules "
+            className="btn  m-2"
+            id="book_design"
+            type="button"
+          >
+            Design Books
+          </a>
+
           <div>
             <div className="text-center">
               <img src={slack} className="m-2" />

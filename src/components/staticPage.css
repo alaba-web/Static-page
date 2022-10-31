@@ -15,13 +15,6 @@
   font-weight: 700;
 }
 
-a {
-  text-decoration: none;
-  color: #101828;
-  font-weight: 600;
-  font-size: 18px;
-}
-
 .footer {
   padding: 48px 0;
 }
@@ -42,6 +35,12 @@ a {
 }
 
 .btn {
+  text-decoration: none;
+  color: #101828;
+  font-weight: 600;
+  font-size: 18px;
+  display: block;
+  background-color: #eaecf0;
   padding: 24px 0;
 }
 
@@ -57,10 +56,6 @@ a {
 
 ul {
   padding: 0;
-}
-
-.btn {
-  background-color: #eaecf0;
 }
 
 @media (max-width: 778px) {
