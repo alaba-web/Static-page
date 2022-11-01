@@ -29,12 +29,12 @@ class Static extends Component {
                 src={image}
                 alt="my image"
                 width={88}
-                id="profile_img"
+                id="profile__img"
                 className="rounded-circle"
               />
             </div>
             <h2 id="twitter" className="m-2 my-name">
-              Azeez Alaba
+              @azeez_alaba
             </h2>
             <h2 id="slack" className="d-none">
               Alaba
@@ -52,14 +52,14 @@ class Static extends Component {
           <a
             href="https://training.zuri.team/"
             className="btn  m-4"
-            id="btn_zuri"
+            id="btn__zuri"
             type="button"
           >
             Zuri Team
           </a>
 
           <a
-            href="http://books.zuri.team"
+            href="https://books.zuri.team"
             className="btn  m-4"
             id="books"
             type="button"
@@ -69,9 +69,9 @@ class Static extends Component {
           </a>
 
           <a
-            href="https://books.zuri.team/python-for-beginners?ref_id=<Alaba>"
+            href="https://books.zuri.team/python-for-beginners?ref_id=Alaba"
             className="btn  m-4"
-            id="book_python"
+            id="book__python"
             type="button"
             title="This is where i feature in the interesting book"
           >
@@ -91,7 +91,7 @@ class Static extends Component {
           <a
             href="https://books.zuri.team/design-rules "
             className="btn  m-4"
-            id="book_design"
+            id="book__design"
             type="button"
             title="I pitch the free design book offered by Zuri"
           >
