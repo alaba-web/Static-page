@@ -43,7 +43,7 @@ class Static extends Component {
 
           <a
             href="https://twitter.com/azeez_alaba"
-            className="btn  m-2"
+            className="btn  m-4"
             type="button"
           >
             Twitter Link
@@ -51,7 +51,7 @@ class Static extends Component {
 
           <a
             href="https://training.zuri.team/"
-            className="btn  m-2"
+            className="btn  m-4"
             id="btn_zuri"
             type="button"
           >
@@ -60,36 +60,40 @@ class Static extends Component {
 
           <a
             href="http://books.zuri.team"
-            className="btn  m-2"
+            className="btn  m-4"
             id="books"
             type="button"
+            title="This is where i find books about design and coding"
           >
             Zuri Books
           </a>
 
           <a
             href="https://books.zuri.team/python-for-beginners?ref_id=<Alaba>"
-            className="btn  m-2"
+            className="btn  m-4"
             id="book_python"
             type="button"
+            title="This is where i feature in the interesting book"
           >
             Python Books
           </a>
 
           <a
             href="https://background.zuri.team "
-            className="btn  m-2"
+            className="btn  m-4"
             id="pitch"
             type="button"
+            title="I pitch a service for doing background checks on coders. My service is great and pocket friendly"
           >
             Background Check for Coders
           </a>
 
           <a
             href="https://books.zuri.team/design-rules "
-            className="btn  m-2"
+            className="btn  m-4"
             id="book_design"
             type="button"
+            title="I pitch the free design book offered by Zuri"
           >
             Design Books
           </a>
@@ -97,7 +101,9 @@ class Static extends Component {
           <div>
             <div className="text-center">
               <img src={slack} className="m-2" />
-              <img src={github} className="m-2" />
+              <a href="https://github.com/alaba-web/Static-page">
+                <img src={github} className="m-2" />
+              </a>
             </div>
           </div>
           <footer className="footer">
