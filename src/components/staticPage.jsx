@@ -1,27 +1,34 @@
 import React, { Component } from "react";
+import { Outlet, Link } from "react-router-dom";
 import image from "./images/img.jpg";
 import slack from "./images/slack.png";
 import github from "./images/github.png";
-import zuriLogo from "./images/zuriLogo.png";
-import I4G from "./images/I4G.png";
+import Footer from "./footer";
+
 import share1 from "./images/share1.png";
 import share2 from "./images/share2.png";
 import "./staticPage.css";
 class Static extends Component {
   render() {
+    const handleFocus = function () {
+      alert("i have been entered");
+    };
     return (
       <div>
         <div className="container ">
-          <div className="share d-none d-lg-block">
+          <div onMouseEnter={handleFocus} className="share d-none d-lg-block">
             {" "}
-            <a href="#">
+            <Link to="#">
               <img src={share2} alt="share button one" />
-            </a>
+            </Link>
           </div>
-          <div className="d-block d-sm-none share-two">
-            <a href="#">
+          <div
+            onMouseEnter={handleFocus}
+            className="d-block d-sm-none share-two"
+          >
+            <Link to="#">
               <img src={share1} alt="share button two" />
-            </a>
+            </Link>
           </div>
           <div className="text-center m-4">
             <div className="rounded-circle">
@@ -41,82 +48,82 @@ class Static extends Component {
             </h2>
           </div>
 
-          <a
-            href="https://twitter.com/azeez_alaba"
+          <Link
+            to="https://twitter.com/azeez_alaba"
             className="btn  m-4"
             type="button"
           >
             Twitter Link
-          </a>
+          </Link>
 
-          <a
-            href="https://training.zuri.team/"
+          <Link
+            to="https://training.zuri.team/"
             className="btn  m-4"
             id="btn__zuri"
             type="button"
           >
             Zuri Team
-          </a>
+          </Link>
 
-          <a
-            href="https://books.zuri.team"
+          <Link
+            to="https://books.zuri.team"
             className="btn  m-4"
             id="books"
             type="button"
             title="This is where i find books about design and coding"
           >
             Zuri Books
-          </a>
+          </Link>
 
-          <a
-            href="https://books.zuri.team/python-for-beginners?ref_id=Alaba"
+          <Link
+            to="https://books.zuri.team/python-for-beginners?ref_id=Alaba"
             className="btn  m-4"
             id="book__python"
             type="button"
             title="This is where i feature in the interesting book"
           >
             Python Books
-          </a>
+          </Link>
 
-          <a
-            href="https://background.zuri.team "
+          <Link
+            to="https://background.zuri.team "
             className="btn  m-4"
             id="pitch"
             type="button"
             title="I pitch a service for doing background checks on coders. My service is great and pocket friendly"
           >
             Background Check for Coders
-          </a>
+          </Link>
 
-          <a
-            href="https://books.zuri.team/design-rules "
+          <Link
+            to="https://books.zuri.team/design-rules "
             className="btn  m-4"
             id="book__design"
             type="button"
             title="I pitch the free design book offered by Zuri"
           >
             Design Books
-          </a>
+          </Link>
+
+          <Link
+            to={`/contact`}
+            className="btn  m-4"
+            id="contact"
+            type="button"
+            title="This link takes you to the contact form"
+          >
+            Contact
+          </Link>
 
           <div>
             <div className="text-center">
               <img src={slack} className="m-2" />
-              <a href="https://github.com/alaba-web/Static-page">
+              <Link to="https://github.com/alaba-web/Static-page">
                 <img src={github} className="m-2" />
-              </a>
+              </Link>
             </div>
           </div>
-          <footer className="footer">
-            <div className="foot">
-              <div>
-                <img src={zuriLogo} alt="zuri logo" />
-              </div>
-              <p className="opacity-50">HNG Internship 9 Frontend Task</p>
-              <div>
-                <img src={I4G} alt="I4G logo" />
-              </div>
-            </div>
-          </footer>
+          <Footer />
         </div>
       </div>
     );
